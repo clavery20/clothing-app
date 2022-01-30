@@ -1,5 +1,16 @@
 body { 
   font-family: 'Open Sans Condensed';
+  padding: 20px 80px;
+}
+
+/* /All a tags in project including links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
