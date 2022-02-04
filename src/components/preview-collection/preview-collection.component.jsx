@@ -12,8 +12,8 @@ const CollectionPreview = ({ title, items }) => (
             //Means that index <4 is displayed therefore 4 items
                 .filter((item, idx) => idx < 4)
                 //... Makes all props available
-                .map(({ id, ...otherItemProps }) => (
-                <CollectionItem key={id} {...otherItemProps} />
+                .map(item=> (
+                <CollectionItem key={item.id} item={item} />
             ))}
         </div>
     </div>
